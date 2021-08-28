@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'C:\tomcat\webapps'
-   def tomcatBin = 'C:\tomcat\bin'
+   def tomcatWeb = 'C:\\tomcat\\webapps'
+   def tomcatBin = 'C:\\tomcat\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/KarthikM1999/Maven_integration.git'
